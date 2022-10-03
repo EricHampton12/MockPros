@@ -17,14 +17,16 @@ header {
   gap: 10px;
   padding: 5px 1rem;
 }
-.circle {
+.circle-logo {
   width: 40px;
   height: 40px;
+  font-weight: 500;
   border-radius: 50%;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
+  font: rgb(92, 58, 243);
 }
 .search {
   display: flex;

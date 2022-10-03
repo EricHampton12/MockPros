@@ -39,7 +39,7 @@ export default function Header({ page, getAllPosts }) {
     <header>
       <div className="header_left">
         <Link to="/" className="header_logo">
-          <div className="circle">{/* <Logo /> */}</div>
+          <div className="circle-logo">MP</div>
         </Link>
         <div
           className="search search1"

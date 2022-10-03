@@ -5,7 +5,7 @@ import Header from "../../components/header";
 import LeftHome from "../../components/home/left";
 import RightHome from "../../components/home/right";
 import SendVerification from "../../components/home/sendVerification";
-import Stories from "../../components/home/stories";
+// import Stories from "../../components/home/stories";
 import Post from "../../components/post";
 import "./style.css";
 export default function Home({ setVisible, posts, loading, getAllPosts }) {
@@ -20,7 +20,7 @@ export default function Home({ setVisible, posts, loading, getAllPosts }) {
       <Header page="home" getAllPosts={getAllPosts} />
       <LeftHome user={user} />
       <div className="home_middle" ref={middle}>
-        <Stories />
+        {/* <Stories /> */}
         {user.verified === false && <SendVerification user={user} />}
         <CreatePost user={user} setVisible={setVisible} />
         <div className="posts">

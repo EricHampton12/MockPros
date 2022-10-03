@@ -8,7 +8,7 @@ import "./style.css";
 import Cover from "./Cover";
 import ProfielPictureInfos from "./ProfielPictureInfos";
 import ProfileMenu from "./ProfileMenu";
-import PplYouMayKnow from "./PplYouMayKnow";
+// import PplYouMayKnow from "./PplYouMayKnow";
 import CreatePost from "../../components/createPost";
 import GridPosts from "./GridPosts";
 import Post from "../../components/post";
@@ -135,7 +135,7 @@ export default function Profile({ getAllPosts }) {
       <div className="profile_bottom">
         <div className="profile_container">
           <div className="bottom_container">
-            <PplYouMayKnow />
+            {/* <PplYouMayKnow /> */}
             <div
               className={`profile_grid ${
                 check && scrollHeight >= height && leftHeight > 1000
@@ -147,17 +147,17 @@ export default function Profile({ getAllPosts }) {
               }`}
             >
               <div className="profile_left" ref={leftSide}>
-                <Intro
-                  detailss={profile.details}
-                  visitor={visitor}
-                  setOthername={setOthername}
-                />
                 <Photos
                   username={userName}
                   token={user.token}
                   photos={photos}
                 />
                 <Friends friends={profile.friends} />
+                <Intro
+                  detailss={profile.details}
+                  visitor={visitor}
+                  setOthername={setOthername}
+                />
                 <div className="relative_fb_copyright">
                   <Link to="/">Privacy </Link>
                   <span>. </span>
@@ -172,7 +172,7 @@ export default function Profile({ getAllPosts }) {
                   <Link to="/"></Link>Cookies <span>. </span>
                   <Link to="/">More </Link>
                   <span>. </span> <br />
-                  Meta © 2022
+                  MockPros © 2022
                 </div>
               </div>
               <div className="profile_right">
