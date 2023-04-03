@@ -52,7 +52,7 @@
   background: var(--bg-third);
 }
 .open_signup {
-  background: var(--green-color);
+  background: var(--gray-color);
   width: 70% !important;
   font-weight: 600 !important;
   font-size: 17px !important;

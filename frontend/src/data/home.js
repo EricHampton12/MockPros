@@ -1,53 +1,23 @@
 export const left = [
   {
-    text: "Find friends",
+    text: "Find Developers",
     img: "friends",
   },
-  {
-    text: "Memories",
-    img: "memories",
-  },
+  
   {
     text: "Developers",
     img: "groups",
     notification: "5 new",
   },
-  {
-    text: "Watch",
-    img: "watch",
-    notification: "9 new videos",
-  },
+ 
   {
     text: "Saved",
     img: "saved",
   },
+ 
   {
-    text: "Pages",
-    img: "pages",
-  },
-  {
-    text: "Events",
+    text: "Book Interview",
     img: "events",
-  },
-  {
-    text: "Ad Center",
-    img: "ad",
-  },
-  {
-    text: "Most recent",
-    img: "recent",
-  },
-  {
-    text: "Play Games",
-    img: "play",
-  },
-  {
-    text: "Recent ad activity",
-    img: "recentad",
-  },
-  {
-    text: "Weather",
-    img: "weather",
   },
 ];
 export const stories = [
