@@ -283,13 +283,14 @@
 /*--Menu-------*/
 /*-----profile card--------*/
 .profile_card {
-  background: var(--bg-primary);
+  background: #07538e;
   border-radius: 10px;
   box-shadow: 0 1px 2px var(--shadow-1);
   padding: 10px 15px;
   margin-top: 15px;
 }
 .profile_card_header {
+  color: #fff;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -307,7 +308,7 @@
   background: var(--bg-secondary);
 }
 .profile_card_count {
-  color: var(--color-secondary);
+  color: #fff;
 }
 .profile_card_grid {
   display: grid;
@@ -330,7 +331,7 @@
   border-radius: 10px;
 }
 .profile_photo_card span {
-  color: var(--color-primary);
+  color: #fff;
   font-size: 13px;
   padding-left: 1px;
 }

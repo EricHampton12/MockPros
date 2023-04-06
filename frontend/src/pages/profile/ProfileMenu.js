@@ -15,16 +15,7 @@ export default function ProfileMenu() {
           Friends
         </Link>
         <Link to="/" className="hover1">
-          Photos
-        </Link>
-        <Link to="/" className="hover1">
           Videos
-        </Link>
-        <Link to="/" className="hover1">
-          Check-ins
-        </Link>
-        <Link to="/" className="hover1">
-          More
         </Link>
         <div className="p10_dots">
           <Dots />

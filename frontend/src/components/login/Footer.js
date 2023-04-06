@@ -5,16 +5,8 @@ export default function Footer() {
     <footer className="login_footer">
       <div className="login_footer_wrap">
         <Link to="/">English(UK)</Link>
-        <Link to="/">Français(FR)</Link>
-        <Link to="/">العربية</Link>
-        <Link to="/">ⵜⴰⵎⴰⵣⵉⵖⵜ</Link>
         <Link to="/">Español (España)</Link>
-        <Link to="/">italiano</Link>
-        <Link to="/">Deutsch</Link>
-        <Link to="/">Português (Brasil)</Link>
-        <Link to="/">हिन्दी</Link>
-        <Link to="/">中文(简体)</Link>
-        <Link to="/">日本語</Link>
+      
         <Link to="/" className="footer_square">
           <i className="plus_icon"></i>
         </Link>
@@ -24,20 +16,11 @@ export default function Footer() {
         <Link to="/">Sign Up</Link>
         <Link to="/">Log in</Link>
         <Link to="/">Messenger</Link>
-        <Link to="/">Oculus</Link>
-        <Link to="/">Portal</Link>
         <Link to="/">Instagram</Link>
         <Link to="/">About</Link>
-        <Link to="/">Create ad</Link>
-        <Link to="/">Create Page</Link>
         <Link to="/">Developers</Link>
-        <Link to="/">Careers</Link>
         <Link to="/">Privacy</Link>
         <Link to="/">Cookies</Link>
-        <Link to="/">
-          AdChoices
-          <i className="adChoices_icon"></i>
-        </Link>
         <Link to="/">Terms</Link>
         <Link to="/">Help</Link>
       </div>

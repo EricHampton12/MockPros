@@ -53,9 +53,7 @@ export default function LoginForm({ setVisible }) {
       <div className="login_1">
         {/* <img src="../../icons/facebook.svg" alt="" /> */}
         <span>
-          MockPros helps you connect and learn with other Developers in the
-          industry.
-        </span>
+        Our mission is to empower entry level developers by connecting them with experienced professionals and providing opportunities for growth through mock interviews and personalized feedback. </span>
       </div>
       <div className="login_2">
         <div className="login_2_wrap">
@@ -105,9 +103,6 @@ export default function LoginForm({ setVisible }) {
             Create Account
           </button>
         </div>
-        <Link to="/" className="sign_extra">
-          <b>Create a Page</b> for a celebrity, brand or business.
-        </Link>
       </div>
     </div>
   );

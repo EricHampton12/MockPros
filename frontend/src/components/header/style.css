@@ -19,6 +19,8 @@ header {
 }
 .circle-logo {
   width: 40px;
+  font-size: 26px;
+  color: #07538e;
   height: 40px;
   font-weight: 500;
   border-radius: 50%;
@@ -26,7 +28,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  font: rgb(92, 58, 243);
 }
 .search {
   display: flex;
